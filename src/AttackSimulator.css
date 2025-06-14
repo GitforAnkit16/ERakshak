@@ -1,0 +1,73 @@
+/* AttackSimulator.css */
+
+.attack-simulator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .attack-simulator-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .attack-simulator-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .attack-simulator-container button:active {
+    background-color: #003d7a;
+  }
+  
+  .attack-simulator-container button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+  }
+  
+  /* Add styles for colored indicators */
+  .metric-indicator {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .indicator-label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .indicator-bar {
+    height: 20px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .indicator-fill {
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s ease-in-out;
+  }
+  
+  .indicator-fill.http-requests {
+    background-color: #76c7c0; /* Color for HTTP requests */
+  }
+  
+  .indicator-fill.rate-limit {
+    background-color: #ff6b6b; /* Color for rate limit */
+  }
+  

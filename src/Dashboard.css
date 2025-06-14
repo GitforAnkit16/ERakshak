@@ -1,0 +1,138 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .metric-box {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .metric-number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .metric-title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .metric-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .indicator-bar {
+    width: 100%;
+    max-width: 400px;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .indicator-fill {
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s ease-in-out;
+    color: #fff; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .indicator-fill.http-requests {
+    background-color: #76c7c0; /* Color for HTTP requests */
+  }
+  
+  .indicator-fill.rate-limit {
+    background-color: #ff6b6b; /* Color for rate limit */
+  }
+  
+  .indicator-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .metric-box {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .metric-number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .metric-title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .metric-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .indicator-bar {
+    width: 100%;
+    max-width: 400px;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .indicator-fill {
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s ease-in-out;
+    color: #fff; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .indicator-fill.http-requests {
+    background-color: #76c7c0; /* Color for HTTP requests */
+  }
+  
+  .indicator-fill.rate-limit {
+    background-color: #ff6b6b; /* Color for rate limit */
+  }
+  
+  .indicator-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
